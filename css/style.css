@@ -1,0 +1,629 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+}
+/* TOP HEADER  */
+.header {
+  background-image: url(../images/King-Living-hero-image-1600x900.webp);
+  width: 100%;
+  height: 788px;
+  background-repeat: no-repeat;
+}
+.header__item {
+  display: flex;
+  padding: 10px 0px;
+  width: 80%;
+  border-bottom: 1px solid #d1cece;
+}
+.icon {
+  margin-left: 25px;
+}
+.login {
+  margin-right: 25px;
+  font-size: 12px;
+  float: right;
+  color: #d1cece;
+}
+.login__website {
+  text-decoration: none;
+  color: #d1cece;
+}
+.fa-brands {
+  cursor: pointer;
+  color: #d1cece;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+/* MENU */
+.menu__item {
+  display: flex;
+}
+.logo {
+  font-size: 80px;
+  color: rgb(129, 255, 27);
+  margin: 30px 0px 0px 250px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.list {
+  color: #d1cece;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+}
+/* .information {
+  float: right;
+  margin-top: 70px;
+  margin-right: 150px;
+} */
+.menu {
+  margin-top: 70px;
+  margin-right: 150px;
+  display: flex;
+}
+ul li {
+  list-style-type: none;
+}
+
+/* CONTENT */
+.content {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.content-header {
+  font-size: 60px;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 10px;
+}
+.content-document {
+  font-size: 30px;
+  margin-top: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button {
+  opacity: 1;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  font-size: 10px;
+  margin-top: 50px;
+  color: #6b6666;
+  font-weight: bold;
+  padding: 12px 25px;
+  justify-content: center;
+  transition: opacity 0.25s;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+/*-------------------------- PRODUCT -----------------------------*/
+.banner {
+  margin-top: 50px;
+  display: flex;
+  width: 80%;
+}
+
+/* left  */
+.box-left {
+  display: flex;
+}
+.banner__item-left {
+  width: 100%;
+  height: 400px;
+  margin-left: 35px;
+  background-repeat: no-repeat;
+  background-image: url(../images/home-5-banner-1.jpg);
+}
+.number-left {
+  display: flex;
+  color: white;
+  font-size: 6rem;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+}
+.saleof-left {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.percent {
+  font-size: 3.5rem;
+  font-family: "Dancing Script", cursive;
+}
+.off {
+  font-size: 2rem;
+}
+.banner__header-left {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.banner__content-left {
+  color: white;
+  text-align: center;
+}
+.banner__button-left {
+  display: flex;
+  font-size: 11px;
+  margin-top: 15px;
+  color: #ffffff;
+  padding: 7px 17px;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: #ffffff00;
+}
+/* right  */
+.box-right {
+  display: flex;
+}
+.banner__item-right {
+  width: 100%;
+  height: 400px;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-image: url(../images/home-5-banner-1.jpg);
+}
+.number-right {
+  display: flex;
+  color: white;
+  font-size: 6rem;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+}
+.saleof-right {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.percent {
+  font-size: 3.5rem;
+  font-family: "Dancing Script", cursive;
+}
+.off {
+  font-size: 2rem;
+}
+.banner__header-right {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.banner__content-right {
+  color: white;
+  text-align: center;
+}
+.banner__button-right {
+  display: flex;
+  font-size: 11px;
+  margin-top: 15px;
+  color: #ffffff;
+  padding: 7px 17px;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: #ffffff00;
+}
+.border {
+  height: 1px;
+  width: 100%;
+  margin-top: -60px;
+  background-color: #caa24b;
+}
+
+/* ABOUT  */
+.about__header {
+  font-size: 2rem;
+  margin-top: 70px;
+  /* font-weight: bold; */
+  color: #666666;
+  text-align: center;
+}
+.about__border {
+  width: 30px;
+  height: 2px;
+  margin-top: 20px;
+  background-color: #ff5733;
+}
+.about__document {
+  width: 80%;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #818181;
+  text-align: center;
+}
+.about__button {
+  display: flex;
+  font-size: 12px;
+  margin-top: 40px;
+  padding: 5px 15px;
+  color: #666666;
+  font-weight: bold;
+  justify-content: center;
+  border: 1px solid #666666;
+  background-color: #ffffff00;
+}
+
+.product__header {
+  font-size: 2rem;
+  /* font-weight: bold; */
+  color: #666666;
+  text-align: center;
+  margin-top: 70px;
+}
+.product__img {
+  width: 280px;
+  margin-top: 50px;
+}
+.product__details {
+  display: flex;
+  flex-direction: column;
+}
+.product__details:hover {
+  transform: scale(0.9, 0.9);
+  transition: ease 0.25s;
+}
+.product__box {
+  display: flex;
+  width: 80%;
+}
+.product__name {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  color: #666666;
+  text-decoration: none;
+}
+.border__product {
+  height: 1px;
+  width: 100%;
+  margin-top: 60px;
+  background-color: #caa24b;
+}
+.advertisement {
+  display: flex;
+  width: 80%;
+}
+
+.advertisement__img {
+  width: 60px;
+}
+.advertisement__box {
+  margin-top: 50px;
+  text-align: center;
+}
+.advertisement__header {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #666666;
+}
+.advertisement__document {
+  color: #666666;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.img__advertisement {
+  display: flex;
+  margin-top: 60px;
+  width: 100%;
+  justify-content: center;
+}
+.news__header {
+  font-size: 2rem;
+  color: #666666;
+  text-align: center;
+  margin-top: 40px;
+}
+.news__box {
+  display: flex;
+  width: 80%;
+  margin-top: 30px;
+}
+.content__header {
+  width: 90%;
+  font-size: 15px;
+  color: #666666;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.time {
+  display: flex;
+  color: #b8a799;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 13px;
+}
+.news__document {
+  width: 90%;
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #666666;
+}
+.news__content {
+  width: 31%;
+  border: 1px solid #eaeaea;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.content__img {
+  width: 100%;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 30px;
+  height: 400px;
+  background-color: #a79c99;
+}
+.footer__header {
+  color: #f9f8f8;
+  font-size: 15px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+.btn-box {
+  width: 80%;
+  display: flex;
+}
+.footer__box1 {
+  width: 30%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__content {
+  font-size: 14px;
+  color: #f9f8f8;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.address {
+  color: #f9f8f8;
+  font-weight: bold;
+  font-size: 14px;
+}
+.fa-solid {
+  color: #ff5733;
+  padding-right: 10px;
+}
+.footer__box2 {
+  width: 30%;
+  padding-top: 50px;
+}
+.iframe {
+  width: 100%;
+  margin-top: 20px;
+}
+.box1__header {
+  color: #f9f8f8;
+  font-size: 21px;
+}
+.footer__box3 {
+  width: 30%;
+  padding-top: 50px;
+}
+.box3__header {
+  font-size: 21px;
+  font-weight: bold;
+  color: #f9f8f8;
+  margin-bottom: 30px;
+}
+.box3__document {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f9f8f8;
+}
+.box__input {
+  display: flex;
+}
+.fa-paper-plane {
+  line-height: 55px;
+  margin-left: -40px;
+  font-size: 22px;
+  color: #f9f8f8;
+}
+.fa-paper-plane:hover {
+  color: #494949;
+}
+.input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  margin-top: 10px;
+  background-color: #bfb4b2;
+}
+.input::placeholder {
+  padding-left: 20px;
+  font-weight: bold;
+  color: #7a7c7b;
+}
+#icon {
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid white;
+}
+#icon:hover {
+  color: #7a7c7b;
+}
+
+.btn-menu {
+  display: none;
+}
+
+#togge-menu {
+  display: none;
+}
+
+.background-header,
+.menu-search {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .menu__item {
+    flex-wrap: wrap;
+    background-color: #b1babd;
+  }
+  .banner {
+    flex-wrap: wrap;
+  }
+  .product__box {
+    flex-wrap: wrap;
+  }
+  .advertisement {
+    flex-wrap: wrap;
+  }
+  .news__box {
+    flex-wrap: wrap;
+  }
+  .news__content {
+    width: 100%;
+  }
+  .btn-box {
+    flex-wrap: wrap;
+  }
+  .footer__box1,
+  .footer__box2,
+  .footer__box3 {
+    width: 100%;
+  }
+  .footer {
+    height: 900px;
+    background-color: #a79c99;
+  }
+  .logo {
+    display: none;
+  }
+  .header__item {
+    display: none;
+  }
+  .header {
+    background: none;
+  }
+  .button {
+    display: none;
+  }
+  .content {
+    display: none;
+  }
+  .background-header {
+    background-image: url(../images/King-Living-hero-image-1600x900.webp);
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-size: cover;
+    opacity: 1;
+    background-repeat: no-repeat;
+  }
+  .background-header h1 {
+    margin-top: 80px;
+    letter-spacing: 2px;
+    color: white;
+  }
+  .background-header p {
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .background-header button {
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #666666;
+    width: 100px;
+    height: 35px;
+  }
+  .background-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .list {
+    color: #353434;
+    font-weight: bold;
+  }
+  .list:hover {
+    width: 15%;
+    background-color: black;
+    color: white;
+  }
+  .btn-menu {
+    position: relative;
+    display: unset;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+  }
+  .menu-search {
+    display: flex;
+    width: 100%;
+  }
+  .menu-input {
+    width: 90%;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: 1px solid #a3a1a1;
+  }
+  #search {
+    line-height: 40px;
+    margin-left: -15%;
+    color: #82798b;
+  }
+  .menu-input::placeholder {
+    padding-left: 15px;
+    font-weight: bold;
+  }
+  #none-search {
+    display: none;
+  }
+  .fa-bars,
+  .fa-user,
+  .fa-shopping-cart {
+    color: white;
+    line-height: 80px;
+    transition: linear 0.2s;
+  }
+  .fa-user {
+    margin-right: 30px;
+  }
+  .fa-bars:hover {
+    color: #353434;
+  }
+  .fa-user:hover {
+    color: #353434;
+  }
+  .fa-shopping-cart:hover {
+    color: #353434;
+  }
+  .fa-user {
+    position: absolute;
+    right: 45px;
+  }
+  .menu {
+    display: none;
+  }
+  .banner {
+    margin-top: -130px;
+  }
+  #togge-menu:checked + .menu {
+    display: block;
+    background-color: #b1babd;
+    width: 100%;
+    margin-top: 0;
+    padding-left: 50px;
+  }
+}
